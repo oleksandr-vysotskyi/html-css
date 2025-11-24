@@ -30,14 +30,14 @@ header .container, footer .container {
     padding: 20px 40px;
 }
 
-header navigation ul {
+header nav ul {
     display: flex;
     align-items: center;
     gap: 56px;
     list-style: none;
 }
 
-header navigation a, footer a {
+header nav a, footer a {
     text-decoration: none;
     color: black;
     font-weight: 400;
