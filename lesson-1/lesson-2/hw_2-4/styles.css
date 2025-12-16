@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    height: 100vh;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+
+}
+
+.item {
+    width: 220px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+.item h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.item .rubik {
+    font-family: "Rubik Pixels", sans-serif;
+}
+
+.item .sedgwick {
+    font-family: "Sedgwick Ave Display", cursive;
+}
+
+.item .dancing {
+    font-family: "Dancing Script", cursive;
+}
+
+.item .fjalla {
+    font-family: "Fjalla One", sans-serif;
+}
+
+.item .indie {
+    font-family: "Indie Flower", cursive;
+}
+
