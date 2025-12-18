@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 30vh;
+}
+
+header, main {
+    margin: 0 0 40px;
+}
+
+header, footer {
+    background-color: cornflowerblue;
+}
+
+main {
+    height: 45vh;
+    gap: 30px;
+}
+
+main article {
+    background-color: blue;
+    height: 50vh;
+    width: 35vw;
+}
+
+footer {
+    height: 45vh;
+}
+
+header, main, main article, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2, h3 {
+    color: white;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h2, h3 {
+    font-weight: normal;
+}
+
+
+
+
