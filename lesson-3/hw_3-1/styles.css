@@ -8,7 +8,7 @@ header {
 }
 
 header, main {
-    margin: 0 0 40px;
+    margin: 0 0 60px;
 }
 
 header, footer {
@@ -27,7 +27,7 @@ main article {
 }
 
 footer {
-    height: 45vh;
+    height: 55vh;
 }
 
 header, main, main article, footer {
