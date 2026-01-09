@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D9D9D9;
+    height: 4vh;
+}
+
+main {
+    height: 86vh;
+    display: flex;
+}
+
+section {
+    display: flex;
+}
+
+section .left{
+    display: flex;
+}
+
+section .left article:first-of-type{
+    background-color: #A4A4A4;
+    width: 29vw;
+}
+
+section .left article:last-of-type{
+    background: #C1C1C1;
+    width: 31vw;
+}
+
+section .right {
+    width: 40vw;
+}
+
+section .right article{
+    height: 50%;
+    width: 100%;
+}
+
+section .right article:first-of-type{
+    background-color: #7F7A7A;
+}
+
+section .right article:last-of-type{
+    background-color: #615050;
+}
+
+footer {
+    height: 10vh;
+}
+
+footer article:first-of-type {
+    background-color: #D9D9D9;
+    height: 100%;
+}
+
