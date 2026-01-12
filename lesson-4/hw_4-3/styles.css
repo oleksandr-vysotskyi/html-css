@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #D9D9D9;
+    height: 22vh;
+}
+
+main {
+    height: 54vh;
+    display: flex;
+}
+main section {
+    display: flex
+}
+
+main section .left, main section .right {
+    background-color: #C0BDBD;
+    width: 27vw;
+}
+
+main .mid {
+    height: 100%;
+    width: 46vw;
+}
+
+main .mid article {
+    width: 100%;
+}
+
+main .mid article:first-of-type {
+    height: 45%;
+    background-color: #827878;
+}
+
+main .mid article:last-of-type {
+    height: 55%;
+    background-color: #B7ADAD;
+}
