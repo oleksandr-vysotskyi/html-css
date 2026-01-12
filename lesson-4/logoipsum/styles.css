@@ -412,8 +412,8 @@ header nav ul a:focus {
     background-color: #FFF;
     color: #5454D4;
     padding: 20px 0;
-    padding-left: clamp(15px, 7vw, 30px);
-    padding-right: clamp(15px, 7vw, 30px);
+    padding-left: clamp(15px, 7vw, 60px);
+    padding-right: clamp(15px, 7vw, 60px);
 }
 
 .pricing article:hover {
