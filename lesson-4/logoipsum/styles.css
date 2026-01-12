@@ -21,11 +21,11 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 15px;
 }
 
 img, svg use {
-    max-width: 80%;
+    max-width: 60%;
     height: auto;
 }
 
@@ -108,6 +108,7 @@ header nav ul a:focus {
     .hero .container {
         gap: 25px;
         justify-content: center;
+        text-align: center;
     }
 }
 
