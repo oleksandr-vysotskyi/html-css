@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloader {
+    width: 300px;
+    height: 300px;
+    background-color: yellowgreen;
+    border-radius: 10%;
+    animation: slideFadeIn 10s ease-out infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    opacity: 0;
+    animation: fadeIn 10s ease-in-out alternate;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-500px);
+    }
+    25% {
+        opacity: 1;
+        transform: translateY(-200px);
+    }
+    75% {
+        opacity: 1;
+        transform: translateY(-400px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-300px);
+    }
+}
+
+
+

@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+.bowlby-font {
+    font-family: "Bowlby One", sans-serif;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: clamp(10px, 1vw, 15px);
+}
+
+header {
+    padding-top: clamp(18px, 2vw, 36px);
+    margin-bottom: clamp(20px, 4vw, 74px);
+}
+
+header nav, header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: clamp(20px, 4vw, 59px);
+}
+
+
+header nav a {
+    color: #E9E3DC;
+    position: relative;
+    font-size: clamp(14px, 2vw, 18px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 95%;
+    text-transform: uppercase;
+}
+
+header nav ul a::after {
+    content: "";
+    display: block;
+    background-color: #FFFFFF;
+    height: 4px;
+    position: absolute;
+    bottom: -6px;
+    width: 0;
+    transition: 0.4s;
+}
+
+header nav ul a:focus::after {
+    width: 100%;
+}
+
+.order {
+    background-color: #B3A0CD;
+    color: #1E1E1E;
+    padding: clamp(10px, 1vw, 27px);
+}
+
+.order:hover {
+    background-color: #D1EF53;
+    color: #000;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.burgers .container {
+    gap: clamp(20px, 2vw, 33px);
+    justify-content: center;
+}
+
+.burgers {
+    margin-bottom: clamp(20px, 5vw, 64px);
+}
+
+.burgers article {
+    height: min(369px, 41vh);
+    padding-left: clamp(20px, 6vw, 109px);
+    padding-right: clamp(20px, 6vw, 149px);
+    border-radius: 30px;
+    border: 4px solid #1E1E1E;
+    background-color: #D1EF53;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #E9E3DC;
+    text-align: center;
+    font-size: clamp(22px, 8vw, 107px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%;
+    letter-spacing: -2.142px;
+    text-transform: uppercase;
+    max-width: 1255px;
+}
+
+.burgers h3 {
+    color: #1E1E1E;
+    font-size: clamp(22px, 8vw, 70px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%;
+    letter-spacing: -1.4px;
+    text-transform: uppercase;
+    max-width: 553px;
+}
+
+.burgers .about {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(20px, 5vw, 35px);
+}
+
+
+.burgers p {
+    color: #1E1E1E;
+    font-size: clamp(16px, 2vw, 24px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: -0.48px;
+    width: min(100%, 521px);
+}
+
+.burgers a {
+    color: #1E1E1E;
+    text-align: center;
+    font-size: clamp(14px, 2vw, 18px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: uppercase;
+    border: 4px solid #1E1E1E;
+    background-color: #E9E3DC;
+    box-shadow: 8px 8px 0 0 #000;
+    padding: 22px 35px;
+    max-width: 190px;
+}
+
+.dishes {
+    margin-bottom: clamp(20px, 4vw, 64px);
+}
+
+.dishes .container {
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1330px) {
+    .dishes .container {
+        justify-content: center;
+        gap: clamp(15px, 2vw, 30px);
+    }
+}
+
+.establishment .container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.establishment img {
+    margin-bottom: clamp(20px, 4vw, 64px);
+}
+
+.establishment p {
+    margin-bottom: clamp(20px, 4vw, 33px);
+    color: #E9E3DC;
+    text-align: center;
+    font-size: clamp(25px, 4vw, 70px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+    max-width: 895px;
+}
+
+.establishment a {
+    margin-bottom: clamp(20px, 4vw, 36px);
+    background-color: #D1EF53;
+    color: #1E1E1E;
+    text-align: center;
+    font-size: clamp(14px, 2vw, 18px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+    padding: 22px 35px;
+}
+
+.establishment a:hover {
+    background-color: #E9E3DC;
+    color: #000;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
