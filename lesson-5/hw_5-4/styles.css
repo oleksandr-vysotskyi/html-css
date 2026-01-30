@@ -79,7 +79,7 @@ header nav ul a:focus::after {
     transition: 0.5s;
 }
 
-main .burgers .container {
+.burgers .container {
     gap: clamp(20px, 2vw, 33px);
     justify-content: center;
 }
