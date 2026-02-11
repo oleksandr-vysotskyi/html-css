@@ -120,7 +120,7 @@ header a {
     transition: 0.5s;
 }
 
-.about h3 {
+.about h1 {
     color: #FFF;
     font-size: clamp(14px, 2vw, 36px);
     font-weight: 700;
